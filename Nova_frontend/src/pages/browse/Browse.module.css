@@ -1,0 +1,16 @@
+.browse__container {
+    background-image: url("./imgs/browse-bkg2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.browse {
+    backdrop-filter: blur(2px);
+    width: 100%;
+    min-height: 50rem;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 15rem 2rem 10rem;
+    text-align: center;
+}

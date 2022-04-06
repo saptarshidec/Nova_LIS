@@ -1,0 +1,46 @@
+.img {
+    width: 10rem;
+}
+
+.contact__container {
+    background-image: url("./imgs/contact-bkg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact {
+    /* backdrop-filter: blur(2px); */
+    background-color: rgba(10, 10, 10, .1);
+    padding: 15rem 2rem 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.info {
+    width: 40rem;
+    color: var(--color-black);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contact-block {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem 3rem;
+    background-color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    width: 40%;
+}
+
+.contact-block:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.name {
+    font-size: 2.4rem;
+    font-weight: 800;
+}

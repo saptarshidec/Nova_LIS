@@ -1,0 +1,49 @@
+.footer {
+    width: 100%;
+    background-color: var(--color-black);
+    padding: 2rem 6rem;
+    color: var(--color-white);
+    margin-bottom: 0;
+}
+
+.footer__title {
+    font-family: 'Montserrat', serif;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-list {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.footer-list > li {
+    border-bottom: 2px solid black;
+}
+
+.footer-list > li:hover {
+    border-bottom: 2px solid white;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-white);
+    transition: all .2s;
+}
+
+.logo-img {
+    margin-left: -2rem;
+    width: 10rem;
+    filter: invert(100%);
+}
+
+@media(max-width: 600px) {
+    .footer__content {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+}

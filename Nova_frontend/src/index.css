@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+:root {
+    /* SHADES OF GREY */
+    --color-black: #000;
+    --color-white: #fff;
+    --color-gray-dark: #555;
+
+
+    /* RAINBOW */
+    --color-primary: #e89a1a;
+    --color-primary-light: #ffb900;
+    --color-primary-dark: #ff7730;
+
+    --color-secondary: #eb2f64;
+    --color-secondary-light: #ff3366;
+    --color-secondary-dark: #ba265d;
+
+    --color-tertiary: #55c57a;
+    --color-tertiary-light: #7ed56f;
+    --color-tertiary-dark: #28b485;
+
+    --color-quaternary-light: #2998ff;
+    --color-quaternary-dark: #5643fa;
+
+    /* SHADOWS */
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+    --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+
+    /* DEFAULT FONT SIZE */
+    --default-font-size: 1.6rem;
+
+    /* DIMENSIONS */
+    --mob-max-width: 650px;
+}
+
+body {
+    font-weight: 400;
+    font-size: var(--default-font-size);
+    line-height: 1.7;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    outline-style: none;
+    -moz-outline-style: none;
+    -webkit-outline-style: none;
+}
+
+html {
+    font-size: 62.5%; /* .1rem = 1px */
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}

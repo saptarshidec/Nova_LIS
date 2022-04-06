@@ -1,0 +1,47 @@
+.about__container {
+    background-image: url("./imgs/about.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about {
+    width: 100%;
+    padding: 15rem 2rem 10rem;
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, .2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4rem;
+}
+
+.content-group {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.content-block {
+    background-color: rgba(255, 255, 255, .6);
+    box-shadow: var(--shadow-dark);
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+    transition: all .1s;
+    cursor: pointer;
+}
+
+.content-block:hover {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.text {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 auto;
+    max-width: 100ch;
+    text-align: left;
+}

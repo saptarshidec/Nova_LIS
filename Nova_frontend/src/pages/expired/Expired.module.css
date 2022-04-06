@@ -1,0 +1,8 @@
+.expired__container {
+    padding: 15rem 0 20rem;
+    background-image: url("./imgs/browse-bkg2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

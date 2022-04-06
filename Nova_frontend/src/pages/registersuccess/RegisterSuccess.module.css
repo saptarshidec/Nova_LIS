@@ -1,0 +1,13 @@
+.register-success {
+    background-image: url("./imgs/register-success.jpg");
+    padding: 20rem 10rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text {
+    color: var(--color-white);
+    font-size: 6rem;
+}
+

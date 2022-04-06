@@ -1,0 +1,41 @@
+.user {
+    padding: 2rem 3rem;
+    background-color: rgba(255, 255, 255, .7);
+    box-shadow: var(--shadow-dark);
+}
+
+.user:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.name {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.sub {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    color: #000;
+    border: 2px solid #000;
+    background-color: transparent;
+    border-radius: .5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.btn__container {
+    width: 100%;
+    text-align: right;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}

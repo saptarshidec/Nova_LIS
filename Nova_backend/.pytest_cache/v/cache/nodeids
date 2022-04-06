@@ -1,0 +1,17 @@
+[
+  "test_app.py::test",
+  "test_app.py::test_deleteBook",
+  "test_app.py::test_deleteUser",
+  "test_app.py::test_expiredBooks",
+  "test_app.py::test_getUser",
+  "test_app.py::test_getUsers",
+  "test_app.py::test_issuereserved",
+  "test_app.py::test_reserveExpired",
+  "test_app.py::testbrowse",
+  "test_app.py::testissue",
+  "test_app.py::testlogin",
+  "test_app.py::testregister",
+  "test_app.py::testreminder",
+  "test_app.py::testreserve",
+  "test_app.py::testreturn"
+]

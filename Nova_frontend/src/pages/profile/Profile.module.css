@@ -1,0 +1,120 @@
+.profile-container {
+    width: 100%;
+    background-image: url("./imgs/profile-bkg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.profile {
+    width: 100%;
+    backdrop-filter: blur(2px);
+    display: flex;
+}
+
+.navigation {
+    width: 20%;
+    min-height: 100vh;
+    background-color: rgba(40, 40, 40, .4);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.navigation > ul {
+    margin-top: 20rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.choice {
+    padding: 2rem;
+    padding-left: 3rem;
+    cursor: pointer;
+    transition: all .2s;
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 700;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.choice:hover {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .3), rgba(255, 255, 255, .5), rgba(255, 255, 255, .3));
+    color: #000;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+.active {
+    background-color: rgb(255, 255, 255);
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    color: #000;
+}
+
+.member-register {
+    font-size: 5rem;
+    color: var(--color-black);
+}
+
+.issued {
+    padding: 15rem 0 20rem;
+    width: 100%;
+    background-color: #eb2f6477;
+}
+
+.returned {
+    padding: 15rem 0 20rem;
+    width: 100%;
+    background-color: #52dffa77;
+}
+
+.reserved {
+    padding: 15rem 0 20rem;
+    width: 100%;
+    background-color: #2998ff77;
+}
+
+.reserved-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.link {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--color-black);
+}
+
+.link:hover {
+    background-color: #ffb90077;
+}
+
+.margin {
+    margin-left: 5rem;
+}
+
+.personal {
+    padding: 15rem 0 20rem;
+    width: 100%;
+    background-color: #ffb90077;
+}
+
+.personal-content {
+    padding: 2rem 5rem;
+    text-align: left;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.sub {
+    font-size: 2rem;
+}

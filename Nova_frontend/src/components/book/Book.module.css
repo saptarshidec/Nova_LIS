@@ -1,0 +1,87 @@
+.book__container {
+    background-image: url("./imgs/book-bkg.jpg");
+    /* background-image: url("https://drive.google.com/file/d/1GGWHLFqALHrC4g-HQzKwZLLY3wW1bBpL/view?usp=sharing"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.book {
+    padding: 15rem 0 20rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.img__container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.cover {
+    width: 30rem;
+    height: 40rem;
+    border: 5px solid #6ac045;
+    border-radius: .5rem;
+}
+
+.issue {
+    padding: .5rem 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+    background-color: #6ac045;
+    border: 2px solid #6ac045;
+    border-radius: .7rem;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.issue:hover {
+    background-color: green;
+    border: 2px solid green;
+}
+
+.info-block {
+    color: var(--color-white);
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.author {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.date {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.copies {
+    font-size: 2rem;
+    margin-top: 2.5rem;
+}
+
+.rack {
+    font-size: 2rem;
+}
+
+.isbn {
+    font-size: 2rem;
+}
+
+
+
+@media (max-width: 600px) {
+    .book {
+        display: flex;
+        flex-direction: column;
+    }
+} 

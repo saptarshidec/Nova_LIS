@@ -1,0 +1,41 @@
+.faqs__container {
+    background-image: url("./imgs/comingsoon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.faqs {
+    backdrop-filter: blur(1px);
+    width: 100%;
+    padding: 15rem 10rem 30rem;
+}
+
+.faqs-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.block {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: rgb(255, 255, 255, .5);
+    cursor: pointer;
+}
+
+.block:hover {
+    background-color: #fff;
+}
+
+.query {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.answer {
+    font-size: 2rem;
+    font-weight: 700;
+}

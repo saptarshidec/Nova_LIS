@@ -1,0 +1,66 @@
+.booklist {
+    filter: none;
+}
+
+.booklist__title {
+    color: var(--color-black);
+}
+
+.navigation {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.arrow {
+    padding: .5rem 2rem;
+    color: #ddd;
+    border: 2px solid #ddd;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.index {
+    color: var(--color-white);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.arrow:hover {
+    background-color: white;
+    color: black;
+}
+
+.booklist__list {
+    width: 80%;
+    margin: 0 auto 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.booklist__rule {
+    width: 80%;
+    height: .5rem;
+    margin: 1rem auto 2rem; 
+    background-color: var(--color-primary-dark);
+    border-radius: 10rem;
+}
+
+@media (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+}
