@@ -11,7 +11,7 @@ Rounak Saha (20CS30043)
 
 ## Steps to run the development server :  
 Go to backend folder and run  
-### flask run  
+##### flask run  
 
 Go the frontend folder and open in a new terminal/cmd and run   
-### npm start  
+##### npm start  
