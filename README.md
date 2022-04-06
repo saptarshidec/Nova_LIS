@@ -1,6 +1,6 @@
 # Nova_LIS
 
-This is our Software Engineering Lab project for the Spring Semester 2021-22 at IIT Kharagour.
+This is our Software Engineering Lab project for the Spring Semester 2021-22 at IIT Kharagpur.
 We have developed a Library Information System for effective management of a Library.
 
 ## Project Contributors:  
