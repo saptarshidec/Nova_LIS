@@ -18,4 +18,6 @@ Go the frontend folder and open in a new terminal/cmd and run
 
 ## Screenshots
 
-Here are some screenshots of our Library website
+Here are some screenshots of our Library website:
+
+
