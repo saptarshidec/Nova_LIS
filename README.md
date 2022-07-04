@@ -15,3 +15,7 @@ Go to backend folder and run
 
 Go the frontend folder and open in a new terminal/cmd and run   
 #### npm start  
+
+## Screenshots
+
+Here are some screenshots of our Library website
